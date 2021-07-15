@@ -6,7 +6,7 @@ const port = 3001; // use port 3000
 // root-folder
 app.get('/', function (req, res) {
   console.log('A request was made to the root');
-  res.send('A request was made to the root');
+  res.send('A request was made to the root - working');
 });
 
 app.get('/test', (req, res, next) => {
