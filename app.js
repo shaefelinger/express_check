@@ -1,8 +1,6 @@
 const express = require('express');
 const app = express(); //creates express-app-object
 
-app.use(express.static(__dirname + '/public')); // public-foder
-
 const port = 3000; // use port 3000
 
 // root-folder
