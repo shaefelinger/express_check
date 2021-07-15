@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express(); //creates express-app-object
 
-const port = 3000; // use port 3000
+const port = 3001; // use port 3000
 
 // root-folder
 app.get('/', function (req, res) {
