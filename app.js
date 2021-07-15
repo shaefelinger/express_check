@@ -11,9 +11,9 @@ app.get('/', function (req, res) {
   res.send('A request was made to the root');
 });
 
-app.get('/test', (req,res, next){
-  res.send('test-working')
-})
+app.get('/test', (req, res, next) => {
+  res.send('test-working');
+});
 
 app.listen(port, function () {
   console.log(`Server running and listening on port ${port}`);
